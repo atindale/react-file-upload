@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import FileUploadPage from './components/file_upload_page'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <FileUploadPage></FileUploadPage>
       </header>
     </div>
   );
